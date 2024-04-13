@@ -1,20 +1,75 @@
-.header{
-    display: flex;
-}
 
 .header ul {
     list-style: none;
     display: flex;
+    padding-left: 0;
+
 }
 .logo {
     display: inline-block;
 }
+
+.buttons-icons {
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
 .navigation {
     display: inline-block;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+
+.header ul li {
+    margin-right: 30px;
 }
 
 .header ul li a{
     text-decoration: none;
     color: black;
     font-weight: 500;
+    font-size: 14px;
+    text-wrap: nowrap;
+}
+
+.header .container {
+    margin: 25px auto;
+    display: flex;
+}
+
+hr {
+
+    border: 1px solid rgb(229, 229, 229) ;
+}
+
+@media screen and (max-width:800px){
+    .header ul li {
+        margin-right: 20px;
+    }
+
+    .navigation {
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    .logo img {
+        max-width: 110px;
+    }
+}
+
+@media screen and (max-width: 650px)  {
+    .navigation {
+        display: none;
+    }
+
+    .logo {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .logo img{
+        max-width: 130px;
+    }
+
 }
