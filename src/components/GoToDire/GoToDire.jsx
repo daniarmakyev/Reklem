@@ -1,3 +1,4 @@
+import GreenButton from "../Green-Button/GreenButton";
 import "./go-to-dire.css";
 
 
@@ -6,10 +7,14 @@ function GoToDire({ }) {
 
         <div className="go-to-dire">
         <div className="backgorund-container">
-            <div className="container">
-                <h1 className="text-center">Планируете сделать <span>принт?</span> Вы пришли по адресу</h1>
-                <p className="text-center">Reklem - только оптовая работа высокого качества с индивидуальным подходом. Работаем с 2008 года.</p>
-                <button className="directory-btn text-center">Перейти в каталог</button>
+                <div className="container">
+            <h1 className="text-center">
+                Планируете сделать <span>принт?</span> Вы пришли по адресу
+            </h1>
+            <p className="text-center">
+                Reklem - только оптовая работа высокого качества с индивидуальным подходом. Работаем с 2008 года.
+            </p>
+            <GreenButton>Перейти в каталог</GreenButton>
             </div>
     
             <div className="background-inner">

@@ -1,0 +1,12 @@
+.directory-btn {
+    margin-top: 30px;
+    background: rgb(16, 187, 135);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 30px !important;
+    display: inline-block;
+}
