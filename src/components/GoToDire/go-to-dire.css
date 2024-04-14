@@ -159,14 +159,27 @@
   .label {
     position: absolute; 
     opacity: 0; 
-    top: 0;
+    bottom: 0;
+    left: 5%;
     transition: opacity 0.3s ease; 
+    color: black;
+    text-wrap: nowrap;
   }
   
+
+
+  .crujka-text{
+    height: 220px;
+  }
+
   .go-links:hover .label {
     opacity: 1; 
   }
   
+  .cofta-text {
+    left: 60%;
+}
+
 @media screen and (max-width: 1580px){
     .background-inner a:nth-child(1) img{
         max-width: 400px;
@@ -285,4 +298,19 @@
     .background-inner a:nth-child(4){
         top: 420px;
     }
+
+    .text-center:first-child {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .crujka-text {
+        height: 100px;
+    }
+
+    .label {
+        font-size: 13px;
+        text-wrap: wrap;
+    }
+
 }

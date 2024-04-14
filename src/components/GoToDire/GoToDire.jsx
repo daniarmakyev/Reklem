@@ -16,22 +16,22 @@ function GoToDire({ }) {
                 <a href="#" className="go-links">
                     <img className="images coftaOne" src={require('../../images/cofta.png')} alt="Cofta One" />
                     <img className="coftaTwo images" src={require('../../images/coftaTwo.png')} alt="Cofta Two" />
-                    <span className="">Текстиль</span>
+                    <span className="label cofta-text">Текстиль</span>
                 </a>
-                <a href="#" className="go-links">
+                <a href="#" className="go-links crujka-text">
                     <img className="images crujkaOne" src={require('../../images/crujka.png')} alt="Crujka One" />
                     <img className="crujkaTwo images" src={require('../../images/crujkaTwo.png')} alt="Crujka Two" />
-                    <span className="">Кружки и термокружки</span>
+                    <span className="label ">Кружки и термокружки</span>
                 </a>
                 <a href="#" className="go-links">
                     <img className="images fleshkaOne" src={require('../../images/fleshka.png')} alt="Fleshka One" />
                     <img className="fleshkaTwo images" src={require('../../images/fleshkaTwo.png')} alt="Fleshka Two" />
-                    <span className="">Флеш-карты</span>
+                    <span className="label">Флеш-карты</span>
                 </a>
                 <a href="#" className="go-links">
                     <img className="images penOne" src={require('../../images/pen.png')} alt="Pen One" />
                     <img className="penTwo images" src={require('../../images/penTwo.png')} alt="Pen Two" />
-                    <span className="">Канцелярия</span>
+                    <span className="label">Канцелярия</span>
                 </a>
                 <a href="#" className="go-links">
                     <img className="images electroOne" src={require('../../images/electro.png')} alt="Electro One" />
