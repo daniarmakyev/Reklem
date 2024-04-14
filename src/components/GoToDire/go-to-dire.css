@@ -25,16 +25,7 @@
     max-width: 400px;
 }
 
-.directory-btn {
-    margin-top: 30px;
-    background: rgb(16, 187, 135);
-    border: none;
-    border-radius: 10px;
-    padding: 10px 30px 10px 30px;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    font-size: 12px;
-}
+
 .backgorund-container {
     max-width: 1720px;
     margin: 0 auto;
@@ -226,6 +217,8 @@
     }
     .text-center:first-child {
         font-size: 34px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 }
 
@@ -267,9 +260,13 @@
     .text-center:first-child {
         font-size: 30px;
     }
+
 }
 
 @media screen and (max-width: 400px) {
+    .go-to-dire {
+        max-height: 550px;
+    }
     .background-inner a:nth-child(1){
         display: none;
     }
