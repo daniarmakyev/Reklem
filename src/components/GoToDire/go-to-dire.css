@@ -13,6 +13,9 @@
     line-height: 44px;
 }
 
+.go-to-dire {
+    background-color: #f2f2f2;
+}
 
 .go-to-dire h1 span {
     text-decoration: underline 6px solid orange;
