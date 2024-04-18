@@ -74,9 +74,15 @@
     text-wrap: nowrap;
 }
 
-.header .container {
+.header .container-header {
     display: flex;
     flex-wrap: wrap;
+}
+
+.container-header {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 hr {
