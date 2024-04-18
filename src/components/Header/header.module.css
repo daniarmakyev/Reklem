@@ -1,0 +1,153 @@
+.header ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+
+}
+.logo {
+    display: inline-block;
+    margin:  20px 0 18px 0;
+}
+
+.header {
+    background-color: #f2f2f2;
+}
+
+.menu {
+    margin-right: 10px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.buttonsIcons {
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 10px 12px;
+    border: none;
+    background: #fff;
+    margin-top: 15px;
+}
+
+
+
+.buttons button {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.buttons button:first-child {
+    margin-left: 0;
+}
+
+.constructor {
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    position: relative;
+    padding: 10px 55px 10px 30px;
+    border: none;
+    background: #fff;
+}
+
+.constructor svg {
+    position: absolute;
+    top: 14px;
+    right: 30px;
+}
+
+.buttons button:active {
+    box-shadow: inset 4px 4px 10px -7px rgba(0, 0, 0, 0.25);
+}
+
+.navigation {
+    margin: 20px 5% 18px 15%;
+}
+
+.header ul li {
+    margin-right: 30px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    text-wrap: nowrap;
+}
+
+.header .containerHeader {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerHeader {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+hr {
+    border: 1px solid rgb(229, 229, 229) ;
+}
+
+@media screen and (max-width:1168px){
+
+    .navigation {
+        margin: 20px 1% 18px 2%;
+    }
+
+    .constructor {
+        padding: 10px 25px 10px 10px;
+    }
+
+    .constructor svg {
+        right: 5px;
+    }
+
+    .buttons {
+        max-height: 40px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .header ul li {
+        margin-right: 20px;
+    }
+
+    .navigation {
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    .logo img {
+        max-width: 110px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .navigation {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 460px)  {
+    .navigation {
+        display: none;
+    }
+
+    .logo {
+        margin: 15px auto;
+        display: block;
+    }
+
+    .logo img{
+        max-width: 130px;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+}

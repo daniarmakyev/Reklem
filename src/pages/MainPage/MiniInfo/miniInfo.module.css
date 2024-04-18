@@ -1,0 +1,43 @@
+.listMiniInfo {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 10%;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.listMiniInfo li {
+    max-height: 150px;
+    max-width: 192px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.listMiniInfo li p,
+.listMiniInfo li h4 {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 592px) {
+    .listMiniInfo {
+        justify-content: space-around;
+    }
+
+    .listMiniInfo li {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .listMiniInfo li {
+        text-align: center;
+    }
+
+    .listMiniInfo li svg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

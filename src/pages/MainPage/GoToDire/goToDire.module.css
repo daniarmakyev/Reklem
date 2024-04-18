@@ -1,0 +1,307 @@
+.textCenter {
+    margin: 0 auto;
+    display: block;
+    max-width: 550px;
+    text-align: center;
+}
+
+.textCenter:first-child {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.goToDire {
+    background-color: #f2f2f2;
+}
+
+.goToDire h1 span {
+    text-decoration: underline 6px solid orange;
+}
+
+.goToDire p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+.backgroundContainer {
+    max-width: 1720px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 680px;
+    width: 100%;
+}
+
+.backgroundInner {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: end;
+    overflow: hidden;
+}
+
+.backgroundInner a:nth-child(1) {
+    position: absolute;
+    top: 80px;
+}
+
+.backgroundInner a:nth-child(2) {
+    position: absolute;
+    top: 430px;
+    left: 30%;
+}
+
+.backgroundInner a:nth-child(3) {
+    position: absolute;
+    top: 430px;
+    left: 40%;
+}
+
+.backgroundInner a:nth-child(4) {
+    position: absolute;
+    top: 430px;
+    left: 58%;
+}
+
+.backgroundInner a:nth-child(5) {
+    position: absolute;
+    top: 100px;
+    left: 75%;
+}
+
+/* Hover effects */
+.coftaTwo {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.coftaTwo:hover {
+    opacity: 1;
+}
+
+.coftaOne:hover {
+    opacity: 0;
+}
+
+.crujkaTwo {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.crujkaTwo:hover {
+    opacity: 1;
+}
+
+.crujkaOne:hover {
+    opacity: 0;
+}
+
+.fleshkaTwo {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.fleshkaTwo:hover {
+    opacity: 1;
+}
+
+.fleshkaOne:hover {
+    opacity: 0;
+}
+
+.penTwo {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.penTwo:hover {
+    opacity: 1;
+}
+
+.penOne:hover {
+    opacity: 0;
+}
+
+.electroTwo {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.electroTwo:hover {
+    opacity: 1;
+}
+
+.electroOne:hover {
+    opacity: 0;
+}
+
+.goLinks {
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    opacity: 0;
+    bottom: 0;
+    left: 5%;
+    transition: opacity 0.3s ease;
+    color: black;
+    white-space: nowrap;
+}
+
+.crujkaText {
+    height: 220px;
+}
+
+.goLinks:hover .label {
+    opacity: 1;
+}
+
+.coftaText {
+    left: 60%;
+}
+
+@media screen and (max-width: 1580px) {
+    .backgroundInner a:nth-child(1) img {
+        max-width: 400px;
+    }
+    .backgroundInner a:nth-child(5) img {
+        max-width: 350px;
+    }
+    .backgroundInner a:nth-child(1) {
+        position: absolute;
+        top: 80px;
+        left: -150px;
+    }
+    .backgroundInner a:nth-child(2) {
+        position: absolute;
+        top: 440px;
+        left: 20%;
+    }
+    .backgroundInner a:nth-child(4) {
+        position: absolute;
+        top: 430px;
+        left: 65%;
+    }
+    .backgroundInner a:nth-child(5) {
+        position: absolute;
+        top: 100px;
+        right: -200px;
+        left: 75%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .backgroundInner a:nth-child(1) img {
+        max-width: 300px;
+    }
+    .backgroundInner a:nth-child(5) img {
+        max-width: 250px;
+    }
+    .backgroundInner a:nth-child(5) {
+        position: absolute;
+        top: 150px;
+    }
+    .textCenter:first-child {
+        font-size: 34px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .backgroundInner a:nth-child(1) img {
+        max-width: 70%;
+    }
+    .backgroundInner a:nth-child(1) {
+        position: absolute;
+        top: 350px;
+        left: -180px;
+    }
+    .backgroundInner a:nth-child(5) img {
+        max-width: 100%;
+    }
+    .backgroundInner a:nth-child(5) {
+        position: absolute;
+        top: 350px;
+    }
+    .backgroundContainer {
+        height: 850px;
+    }
+    .backgroundInner a:nth-child(2) {
+        display: none;
+    }
+    .backgroundInner a:nth-child(3) {
+        position: absolute;
+        top: 550px;
+        left: 30%;
+    }
+    .backgroundInner a:nth-child(3) img {
+        max-width: 70%;
+    }
+    .backgroundInner a:nth-child(4) {
+        display: none;
+    }
+    .textCenter:first-child {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .goToDire {
+        max-height: 550px;
+    }
+    .backgroundInner a:nth-child(1) {
+        display: none;
+    }
+    .backgroundInner a:nth-child(5) {
+        display: none;
+    }
+    .backgroundInner a:nth-child(2) {
+        display: inline-block;
+        left: 30px;
+    }
+    .backgroundInner a:nth-child(4) {
+        display: inline-block;
+    }
+    .backgroundInner a:nth-child(2) img {
+        max-width: 90px;
+    }
+    .backgroundInner a:nth-child(3) img {
+        max-width: 120px;
+    }
+    .backgroundInner a:nth-child(3) {
+        top: 440px;
+    }
+    .backgroundInner a:nth-child(4) img {
+        max-width: 120px;
+    }
+    .backgroundInner a:nth-child(4) {
+        top: 420px;
+    }
+    .textCenter:first-child {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .crujkaText {
+        height: 100px;
+    }
+    .label {
+        font-size: 13px;
+        white-space: normal;
+    }
+}

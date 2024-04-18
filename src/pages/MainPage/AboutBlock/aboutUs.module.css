@@ -1,0 +1,89 @@
+.aboutUs {
+    margin-top: 100px;
+}
+
+.aboutUsContainer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.aboutLeft h2 {
+    font-size: 36px;
+    font-weight: 600;
+    max-width: 350px;
+}
+
+.aboutLeft p {
+    max-width: 350px;
+    margin-top: 40px;
+}
+
+.orangeUnderline {
+    text-decoration: underline orange;
+}
+
+.aboutRight {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    max-height: 450px;
+}
+
+.aboutRight img {
+    height: 430px;
+    max-width: 450px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.aboutLeft {
+    display: inline-block;
+    width: 50%;
+}
+
+.aboutLeft button {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 669px) {
+    .aboutUsContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .aboutUs {
+        margin-top: 30px;
+    }
+
+    .aboutLeft {
+        text-align: left;
+        margin-left: 35px;
+        max-width: 80%;
+        width: 100%;
+    }
+
+    .aboutRight {
+        display: inline-block;
+        width: auto;
+        height: 100%;
+        max-height: 450px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+    .aboutRight img {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .aboutLeft p {
+        max-width: 100%;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .aboutLeft h2 {
+        font-size: 28px;
+    }
+}
