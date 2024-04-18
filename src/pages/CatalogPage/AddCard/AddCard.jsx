@@ -9,25 +9,34 @@ const AddCard = () => {
     const { createProduct } = useContext(mainContext);
 
     const [name, setName] = useState('');
-    const [description, setDescription] = useState('');
+    const [description, setDesc] = useState('');
     const [price, setPrice] = useState('');
     const [imageUrl, setImageUrl] = useState('');
 
-
-    const addCard = (e) => {
+    const addCard = async (e) => {
         e.preventDefault();
+
+
+
+        if (!name || !description || !price || !imageUrl) {
+            alert('Пожалуйста, заполните все поля');
+            return;
+        }
+
 
         const newProduct = {
             name,
             description,
-            price,
+            price, 
             imageUrl
         };
 
-        createProduct(newProduct);
+
+        await createProduct(newProduct);
+
 
         setName('');
-        setDescription('');
+        setDesc('');
         setPrice('');
         setImageUrl('');
     };
@@ -36,24 +45,28 @@ const AddCard = () => {
         <div className="container">
             <form className={styles.addForm} onSubmit={addCard}>
                 <AddInput
+                    name="Название товара: "
                     type="text"
                     placeholder="Имя"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                 />
                 <AddInput
+                    name="Описание товара: "
                     type="text"
                     placeholder="Описание"
                     value={description}
-                    onChange={(e) => setDescription(e.target.value)}
+                    onChange={(e) => setDesc(e.target.value)}
                 />
                 <AddInput
+                    name="Цена товара: "
                     type="text"
                     placeholder="Цена"
                     value={price}
                     onChange={(e) => setPrice(e.target.value)}
                 />
                 <AddInput
+                    name="Картинка: "
                     type="url"
                     placeholder="Ссылка на картинку (URL)"
                     value={imageUrl}
@@ -69,4 +82,5 @@ const AddCard = () => {
 };
 
 export default AddCard;
+
 

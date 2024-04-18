@@ -1,7 +1,11 @@
 {
   "product": [
     {
-
+      "name": "Кружка",
+      "description": "Белая",
+      "price": "100",
+      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
+      "id": 1
     }
   ]
 }

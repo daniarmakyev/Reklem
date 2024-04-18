@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from "./addInput.module.css"
-const AddInput = ({type, placeholder,name}) => {
+const AddInput = ({type, placeholder,name,onChange}) => {
   return (
     <div className={styles.inputBlocks}>
         <label className={styles.label}><p>{name}</p>
-        <input type={type} placeholder={placeholder} className={styles.input}/>
+        <input type={type} onChange={onChange} placeholder={placeholder} className={styles.input}/>
         </label>
     </div>
   )
