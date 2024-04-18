@@ -1,0 +1,15 @@
+.addForm {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.addForm button {
+    display: inline-block;
+}
+
+.addForm button:first-child {
+    margin-right: 25px;
+}

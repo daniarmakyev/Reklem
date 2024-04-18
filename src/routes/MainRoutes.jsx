@@ -4,6 +4,7 @@ import NoneFound from "../pages/NoneFoundPage/NoneFound";
 import MainLayout from "../MainLayout/MainLaout";
 import MainPage from "../pages/MainPage/MainPage";
 import Catalog from "../pages/CatalogPage/Catalog/Catalog";
+import AddCard from "../pages/CatalogPage/AddCard/AddCard";
 
 const MainRoutes = () => {
   return (
@@ -12,6 +13,7 @@ const MainRoutes = () => {
         <Route path="/" element={<MainPage/>} />
         <Route path="/catalog" element={<Catalog/>}/>
         <Route path="*" element={<NoneFound/>} />
+        <Route path="/addCard" element={<AddCard/>}/>
       </Route>
     </Routes>
   );

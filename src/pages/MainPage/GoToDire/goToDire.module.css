@@ -21,6 +21,16 @@
     text-decoration: underline 6px solid orange;
 }
 
+.goToDire button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.goToDire button a:hover {
+    text-decoration: none;
+    color: rgb(16, 187, 135);
+}
+
 .goToDire p {
     font-size: 14px;
     font-weight: 400;
