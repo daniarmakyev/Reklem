@@ -9,7 +9,7 @@ const Catalog = () => {
   const { createProduct, products } = useContext(mainContext);
   console.log(products);
   return (
-    <div className={styles.catalogContainer}>
+    <div className={styles.catalog}>
         <div className="container">
           <Link to={'/addCard'} className={styles.addCard}><GreenButton>Добавить</GreenButton></Link>
 

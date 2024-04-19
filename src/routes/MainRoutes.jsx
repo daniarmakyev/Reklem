@@ -5,6 +5,7 @@ import MainLayout from "../MainLayout/MainLaout";
 import MainPage from "../pages/MainPage/MainPage";
 import Catalog from "../pages/CatalogPage/Catalog/Catalog";
 import AddCard from "../pages/CatalogPage/AddCard/AddCard";
+import EditCard from "../pages/CatalogPage/EditCard/EditCard";
 
 const MainRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const MainRoutes = () => {
         <Route path="/catalog" element={<Catalog/>}/>
         <Route path="*" element={<NoneFound/>} />
         <Route path="/addCard" element={<AddCard/>}/>
+        <Route path="/edit/:id" element={<EditCard/>}/>
       </Route>
     </Routes>
   );
