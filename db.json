@@ -6,6 +6,30 @@
       "price": "100",
       "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
       "id": 1
+    },{
+      "name": "Кружка",
+      "description": "Белая",
+      "price": "100",
+      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
+      "id": 2
+    },{
+      "name": "Кружка",
+      "description": "Белая",
+      "price": "100",
+      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
+      "id": 3
+    },{
+      "name": "Кружка",
+      "description": "Белая",
+      "price": "100",
+      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
+      "id": 4
+    },{
+      "name": "Кружка",
+      "description": "Белая",
+      "price": "100",
+      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
+      "id": 5
     }
   ]
 }
