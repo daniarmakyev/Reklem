@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import GreenButton from "../../../components/Green-Button/GreenButton";
 import styles from "./goToDire.module.css";
 
@@ -12,7 +13,7 @@ function GoToDire() {
           <p className={styles.textCenter}>
             Reklem - только оптовая работа высокого качества с индивидуальным подходом. Работаем с 2008 года.
           </p>
-          <GreenButton>Перейти в каталог</GreenButton>
+          <GreenButton><Link to={'/catalog'}>Перейти в каталог</Link></GreenButton>
         </div>
 
         <div className={styles.backgroundInner}>

@@ -11,7 +11,7 @@ function Header() {
         <nav className={styles.navigation}>
           <ul>
           {navs.map((item, index) => (
-            <li><NavLink key={index} to={item.path}>
+            <li key={index}><NavLink  to={item.path}>
               {item.title}
             </NavLink></li>
           ))}

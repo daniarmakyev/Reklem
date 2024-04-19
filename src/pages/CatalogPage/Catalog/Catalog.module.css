@@ -1,0 +1,11 @@
+.addCard {
+    text-decoration: none;
+}
+
+
+.catalog {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 600px;
+}
