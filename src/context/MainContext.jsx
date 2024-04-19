@@ -40,7 +40,7 @@
 
         const editProduct = async (id,newObj) => {
             try {
-                axios.post(`http://localhost:8000/product/${id}`, newObj)
+                axios.put(`${API}/${id}`, newObj)
                 getProducts();
             }catch (error) {
                 alert('Ошибка при отправке!');
@@ -48,11 +48,17 @@
             }
         }
 
+        const deleteProduct = async (id) => {
+            await axios.delete(`${API}/${id}`)
+             getProducts()
+           }
+
         useEffect(() => {
             getProducts();
         }, []); 
+        
         return (
-            <mainContext.Provider value={{ oneProduct,products, createProduct, getProducts,getOneProduct,editProduct }}>
+            <mainContext.Provider value={{ oneProduct,products, createProduct, getProducts,getOneProduct,editProduct ,deleteProduct}}>
                 {children}
             </mainContext.Provider>
         );

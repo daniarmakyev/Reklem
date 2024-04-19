@@ -6,7 +6,7 @@ import GreenButton from '../../../components/Green-Button/GreenButton';
 import { useNavigate } from 'react-router-dom';
 
 const AddCard = () => {
-    const { createProduct, getProducts } = useContext(mainContext);
+    const { createProduct, products } = useContext(mainContext);
 
     const[name, setName] = useState('');
     const[desc, setDesc] = useState('');

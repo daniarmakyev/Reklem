@@ -8,7 +8,7 @@ import EditInput from '../../../components/editInput/EditInput';
 const EditCard = () => {
     const { getOneProduct, editProduct,oneProduct } = useContext(mainContext);
     const { id } = useParams();
-    console.log(id);
+    console.log(oneProduct);
     useEffect(() => {
         getOneProduct(id);
       }, []);
@@ -21,7 +21,7 @@ const EditCard = () => {
     useEffect(() => {
         if (oneProduct) {
             setName(oneProduct.name);
-            setDesc(oneProduct.description);
+            setDesc(oneProduct.desc);
             setPrice(oneProduct.price);
             setImageUrl(oneProduct.imageUrl);
             }
