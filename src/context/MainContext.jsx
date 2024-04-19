@@ -7,26 +7,58 @@
     const MainProvider = ({ children }) => {
 
         const [products, setProducts] = useState([]);
-
+        const [oneProduct, setOneProduct] = useState(null);
         const getProducts = async () => {
            try {
             const dbObj = await axios.get(API);
             setProducts(dbObj.data)
-           }catch{
-            alert("Ошибка получаения!")
+           }catch(error){
+            alert("Ошибка получения!")
             console.error(error);
            }
         }
 
-
-
+        const createProduct = async (obj) => {
+            try {
+                const postObj = await axios.post(API, obj);
+                getProducts()
+            }catch(error){
+                alert("Ошибка при отправке!")
+                console.error(error);
+               }
+        }
         
+        const getOneProduct = async (id) => {
+            try {
+                const obj = await axios.get(`http://localhost:8000/product/${id}`);
+                setOneProduct(obj.data)
+            } catch (error) {
+                alert('Ошибка при отправке!');
+                console.error(error);
+            }
+        };
+
+        const editProduct = async (id,newObj) => {
+            try {
+                axios.put(`${API}/${id}`, newObj)
+                getProducts();
+            }catch (error) {
+                alert('Ошибка при отправке!');
+                console.error(error);
+            }
+        }
+
+        const deleteProduct = async (id) => {
+            await axios.delete(`${API}/${id}`)
+             getProducts()
+           }
 
         useEffect(() => {
             getProducts();
         }, []); 
+        
         return (
-            <mainContext.Provider value={{ products, createProduct, getProducts }}>
+            <mainContext.Provider value={{ oneProduct,products, createProduct, getProducts,getOneProduct,editProduct ,deleteProduct}}>
                 {children}
             </mainContext.Provider>
         );
