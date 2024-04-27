@@ -1,7 +1,7 @@
 {
   "product": [
     {
-      "name": "Кружка",
+      "name": "Кружкаaaaa",
       "desc": "Белаяasdasdasda",
       "price": "100",
       "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
@@ -20,6 +20,13 @@
       "price": "100",
       "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
       "id": 5
+    },
+    {
+      "name": "Кружка",
+      "desc": "dasdd",
+      "price": "100",
+      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
+      "id": 6
     }
   ]
 }
