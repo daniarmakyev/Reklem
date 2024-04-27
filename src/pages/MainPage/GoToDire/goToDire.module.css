@@ -26,7 +26,7 @@
     color: #fff;
 }
 
-.goToDire button a:hover {
+.goToDire button:hover a{
     text-decoration: none;
     color: rgb(16, 187, 135);
 }

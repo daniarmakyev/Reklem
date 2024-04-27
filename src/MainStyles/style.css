@@ -1,6 +1,7 @@
-.body {
-  background: rgb(242, 242, 242);
-  color: #65665C;
+@import "./null.css";
+
+body {
+    background-color: #fff;
   user-select: none;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -28,7 +29,7 @@
 }
 
 .container  {
-    max-width: 960px !important;
+    max-width: 1320px !important;
     padding: 0 10px;
     margin: 0 auto;
 }
