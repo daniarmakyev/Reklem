@@ -18,6 +18,15 @@
     background: transparent;
 }
 
+.card button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card button:hover a {
+    color: rgb(16, 187, 135);;
+}
+
 .card h2{
     margin-top: 10px;
     font-size: 24px;
@@ -28,6 +37,7 @@
     margin: 0;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin: 10px 25px;
 }
 
 .image {
