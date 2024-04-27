@@ -1,0 +1,13 @@
+.card {
+    width: 96px;
+    height: 96px;
+    border-radius: 21px;
+    background: #F2F2F2;
+    position: relative;
+}
+
+.card svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import styles from "./header.module.css";
 import { navs } from "./navLinks"
+
 function Header() {
   return (
     <header className={styles.header}>
