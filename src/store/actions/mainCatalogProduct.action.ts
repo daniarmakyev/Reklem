@@ -1,10 +1,23 @@
-import { createAsyncThunk } from "@reduxjs/toolkit"
+import { createAsyncThunk, Action, ThunkAction, ThunkDispatch } from "@reduxjs/toolkit";
 import axios from "axios";
+import { RootState } from '../store';
 
-const API = 'http://localhost:8000/product'
+const API = 'http://localhost:8000/product';
 
-
-export const getProductsCatalog = createAsyncThunk('products/getProductsCatalog', async () => {
-    const {data} = await axios.get(API);
-    return data
-})
+export interface Product {
+    id: number;
+    name: string;
+    imageUrl: string;
+    price: number;
+    color:string;
+    miniInfo?:string
+    desc: string;
+  }
+  
+  export const getProductsCatalog = createAsyncThunk(
+    'products/getProductsCatalog',
+    async (): Promise<Product[]> => {
+      const { data } = await axios.get(API);
+      return data;
+    }
+  );

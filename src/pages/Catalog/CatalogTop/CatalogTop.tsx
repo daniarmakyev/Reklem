@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from "./catalogTop.module.css";
 import Category from '../Category/Category';
+import CatalogList from '../CatalogList/CatalogList';
 
 const CatalogTop = () => {
 
@@ -59,6 +60,7 @@ const CatalogTop = () => {
             </div>
                     
         <Category/>
+        <CatalogList/>
         </div>
     );
 };
