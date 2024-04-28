@@ -7,7 +7,7 @@ const Catalog = () => {
   return (
     <div>
         <CatalogTop/>
-
+        
     </div>
   )
 }
