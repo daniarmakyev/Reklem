@@ -1,19 +1,24 @@
-import React, { ReactNode } from 'react'
-import styles from "./categoryCard.module.css"
-import { Link } from 'react-router-dom'
+import React, { ReactNode } from 'react';
+import styles from './categoryCard.module.css';
+import { Link } from 'react-router-dom';
 
-interface CategoryCard {
-  children: ReactNode ; 
+interface CategoryCardProps {
+  children: ReactNode;
+  text: string;
+  isFifth?: boolean; 
 }
-const CategoryCard = ({ children }: CategoryCard):JSX.Element => {
+
+const CategoryCard = ({ children, text, isFifth }: CategoryCardProps): JSX.Element => {
   return (
-    <div className={styles.card}>
-        <Link to={'/'}>{children}
-        </Link>
+    <div className={`${styles.block} ${isFifth ? styles.fifthCard : ''}`}>
+      <Link className={styles.card} to={'/'}>
+        {children}
+      </Link>
+      <span className={styles.cardtext}>{text}</span>
     </div>
-  )
-}
+  );
+};
 
-export default CategoryCard
+export default CategoryCard;
 
 

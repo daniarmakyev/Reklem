@@ -1,32 +1,20 @@
 {
   "product": [
     {
-      "name": "Кружкаaaaa",
-      "desc": "Белаяasdasdasda",
+      "name": "Кружка",
+      "color": "Белая",
       "price": "100",
-      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
+      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
+      "imageUrl": "https://media.istockphoto.com/id/506131299/tr/foto%C4%9Fraf/realistic-classic-white-cup.jpg?s=612x612&w=0&k=20&c=gHcgdNDgi_01b37oHobV7EYs3vwt9WDfud5cH_mvbh8=",
       "id": 1
     },
     {
       "name": "Кружка",
-      "desc": "dasdd",
-      "price": "100",
-      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
-      "id": 4
-    },
-    {
-      "name": "Кружка",
-      "desc": "ЧЕРНАЯ",
-      "price": "100",
-      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
-      "id": 5
-    },
-    {
-      "name": "Кружка",
-      "desc": "dasdd",
-      "price": "100",
-      "imageUrl": "https://color-art.tomsk.ru/image/cache/catalog/tovarymagazina/kruzhki/1-1000x1000.jpg",
-      "id": 6
+      "color":"Черная",
+      "price": "300",
+      "desc": "Черная флешка - символ современной технологии и функциональности. Ее элегантный черный корпус не только выглядит стильно, но и обеспечивает надежную защиту для ваших данных. С высокой емкостью и быстрой передачей информации, эта флешка идеально подходит для хранения и передачи файлов любого размера. Независимо от того, нужна ли вам флешка для работы, учебы или развлечений, черная флешка станет надежным спутником в вашей повседневной жизни.",
+      "imageUrl": "https://image.made-in-china.com/2f0j00dzEcSDlqrCkM/Colorful-USB-Classic-Flash-Drive-Swivel-USB-Pen-Drive-with-Logo-in-Pms-Color.webp",
+      "id": 2
     }
   ]
 }

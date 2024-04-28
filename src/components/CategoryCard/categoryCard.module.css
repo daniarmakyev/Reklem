@@ -8,6 +8,24 @@
 
 .card svg {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 30px;
+    left: 32px;
 }
+
+.fifthCard svg{
+    left: 38px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardtext {
+    font-weight: 600;
+    line-height: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
