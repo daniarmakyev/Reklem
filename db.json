@@ -7,16 +7,13 @@
       "miniInfo": "Матовая Кружка  Расцветка: ",
       "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
       "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
+      "secondImageUrl":"https://img.freepik.com/free-photo/clean-white-coffee-mug-white-background_125540-3365.jpg",
+      "thirdImageUrl":"https://img.freepik.com/fotos-premium/taza-blanca-sobre-mesa-interior-minimalista_137678-476.jpg?size=626&ext=jpg&ga=GA1.1.1488620777.1708387200&semt=ais",
+      "fourthImageUrl":"https://st5.depositphotos.com/33334812/64117/i/450/depositphotos_641178524-stock-photo-white-mug-mock-empty-space.jpg",
+      "size":"950x81x81 мм",
+      "material":"Керамика",
+      "weight":"361 гр",
       "id": 1
-    },
-    {
-      "name": "Флеш-Карта",
-      "color":"Белая",
-      "price": "300",
-      "miniInfo": "Матовая Кружка  Расцветка: ",
-      "desc": "Белая флешка - символ современной технологии и функциональности. Ее элегантный черный корпус не только выглядит стильно, но и обеспечивает надежную защиту для ваших данных. С высокой емкостью и быстрой передачей информации, эта флешка идеально подходит для хранения и передачи файлов любого размера. Независимо от того, нужна ли вам флешка для работы, учебы или развлечений, черная флешка станет надежным спутником в вашей повседневной жизни.",
-      "imageUrl": "https://pngimg.com/d/usb_PNG8883.png",
-      "id": 2
     },{
       "name": "Кружка",
       "color": "Белая",
@@ -24,108 +21,98 @@
       "miniInfo": "Матовая Кружка  Расцветка: ",
       "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
       "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
+      "secondImageUrl":"https://img.freepik.com/free-photo/clean-white-coffee-mug-white-background_125540-3365.jpg",
+      "thirdImageUrl":"https://img.freepik.com/fotos-premium/taza-blanca-sobre-mesa-interior-minimalista_137678-476.jpg?size=626&ext=jpg&ga=GA1.1.1488620777.1708387200&semt=ais",
+      "fourthImageUrl":"https://st5.depositphotos.com/33334812/64117/i/450/depositphotos_641178524-stock-photo-white-mug-mock-empty-space.jpg",
+      "size":"950x81x81 мм",
+      "material":"Керамика",
+      "weight":"361 гр",
+      "id": 2
+    },{
+      "name": "Наушники",
+      "color": "Белая",
+      "price": "100",
+      "miniInfo": "Матовая Кружка  Расцветка: ",
+      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
+      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
+      "secondImageUrl":"https://img.freepik.com/free-photo/clean-white-coffee-mug-white-background_125540-3365.jpg",
+      "thirdImageUrl":"https://img.freepik.com/fotos-premium/taza-blanca-sobre-mesa-interior-minimalista_137678-476.jpg?size=626&ext=jpg&ga=GA1.1.1488620777.1708387200&semt=ais",
+      "fourthImageUrl":"https://st5.depositphotos.com/33334812/64117/i/450/depositphotos_641178524-stock-photo-white-mug-mock-empty-space.jpg",
+      "size":"950x81x81 мм",
+      "material":"Керамика",
+      "weight":"361 гр",
       "id": 3
-    },    {
-      "name": "Кружка",
+    },{
+      "name": "Наушники",
       "color": "Белая",
       "price": "100",
+      "miniInfo": "Матовая Кружка  Расцветка: ",
       "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
       "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
+      "secondImageUrl":"https://img.freepik.com/free-photo/clean-white-coffee-mug-white-background_125540-3365.jpg",
+      "thirdImageUrl":"https://img.freepik.com/fotos-premium/taza-blanca-sobre-mesa-interior-minimalista_137678-476.jpg?size=626&ext=jpg&ga=GA1.1.1488620777.1708387200&semt=ais",
+      "fourthImageUrl":"https://st5.depositphotos.com/33334812/64117/i/450/depositphotos_641178524-stock-photo-white-mug-mock-empty-space.jpg",
+      "size":"950x81x81 мм",
+      "material":"Керамика",
+      "weight":"361 гр",
       "id": 4
-    },    {
-      "name": "Кружка",
+    },{
+      "name": "Флеш-Карта",
       "color": "Белая",
       "price": "100",
       "miniInfo": "Матовая Кружка  Расцветка: ",
       "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
       "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
+      "secondImageUrl":"https://img.freepik.com/free-photo/clean-white-coffee-mug-white-background_125540-3365.jpg",
+      "thirdImageUrl":"https://img.freepik.com/fotos-premium/taza-blanca-sobre-mesa-interior-minimalista_137678-476.jpg?size=626&ext=jpg&ga=GA1.1.1488620777.1708387200&semt=ais",
+      "fourthImageUrl":"https://st5.depositphotos.com/33334812/64117/i/450/depositphotos_641178524-stock-photo-white-mug-mock-empty-space.jpg",
+      "size":"950x81x81 мм",
+      "material":"Керамика",
+      "weight":"361 гр",
       "id": 5
-    },    {
-      "name": "Кружка",
+    },{
+      "name": "Чехол",
       "color": "Белая",
       "price": "100",
       "miniInfo": "Матовая Кружка  Расцветка: ",
       "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
       "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
+      "secondImageUrl":"https://img.freepik.com/free-photo/clean-white-coffee-mug-white-background_125540-3365.jpg",
+      "thirdImageUrl":"https://img.freepik.com/fotos-premium/taza-blanca-sobre-mesa-interior-minimalista_137678-476.jpg?size=626&ext=jpg&ga=GA1.1.1488620777.1708387200&semt=ais",
+      "fourthImageUrl":"https://st5.depositphotos.com/33334812/64117/i/450/depositphotos_641178524-stock-photo-white-mug-mock-empty-space.jpg",
+      "size":"950x81x81 мм",
+      "material":"Керамика",
+      "weight":"361 гр",
       "id": 6
-    },    {
-      "name": "Кружка",
+    },{
+      "name": "SSD",
       "color": "Белая",
       "price": "100",
       "miniInfo": "Матовая Кружка  Расцветка: ",
       "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
       "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
+      "secondImageUrl":"https://img.freepik.com/free-photo/clean-white-coffee-mug-white-background_125540-3365.jpg",
+      "thirdImageUrl":"https://img.freepik.com/fotos-premium/taza-blanca-sobre-mesa-interior-minimalista_137678-476.jpg?size=626&ext=jpg&ga=GA1.1.1488620777.1708387200&semt=ais",
+      "fourthImageUrl":"https://st5.depositphotos.com/33334812/64117/i/450/depositphotos_641178524-stock-photo-white-mug-mock-empty-space.jpg",
+      "size":"950x81x81 мм",
+      "material":"Керамика",
+      "weight":"361 гр",
       "id": 7
-    },    {
-      "name": "Кружка",
-      "color": "Белая",
-      "price": "100",
-      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
-      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
-      "id": 8
-    },    {
-      "name": "Кружка",
+    },{
+      "name": "SSD",
       "color": "Белая",
       "price": "100",
       "miniInfo": "Матовая Кружка  Расцветка: ",
       "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
       "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
-      "id": 9
-    },    {
-      "name": "Кружка",
-      "color": "Белая",
-      "price": "100",
-      "miniInfo": "Матовая Кружка  Расцветка: ",
-      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
-      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
-      "id": 10
-    },    {
-      "name": "Кружка",
-      "color": "Белая",
-      "price": "100",
-      "miniInfo": "Матовая Кружка  Расцветка: ",
-      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
-      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
-      "id": 11
-    },    {
-      "name": "Кружка",
-      "color": "Белая",
-      "price": "100",
-      "miniInfo": "Матовая Кружка  Расцветка: ",
-      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
-      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
-      "id": 12
-    },    {
-      "name": "Кружка",
-      "color": "Белая",
-      "price": "100",
-      "miniInfo": "Матовая Кружка  Расцветка: ",
-      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
-      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
-      "id": 13
-    },    {
-      "name": "Кружка",
-      "color": "Белая",
-      "price": "100",
-      "miniInfo": "Матовая Кружка  Расцветка: ",
-      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
-      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
-      "id": 14
-    },    {
-      "name": "Кружка",
-      "color": "Белая",
-      "price": "100",
-      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
-      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
-      "id": 15
-    },    {
-      "name": "Кружка",
-      "color": "Белая",
-      "price": "100",
-      "miniInfo": "Матовая Кружка  Расцветка: ",
-      "desc":"Матовый белый кружок - классический, элегантный и универсальный. С его минималистичным дизайном и нежным оттенком, он подходит для любого интерьера или события. Этот кружок станет прекрасным выбором для ежедневного использования или в качестве подарка благодаря своей простоте и стилю.",
-      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/008/478/819/small/single-blank-cup-free-png.png",
-      "id": 16
+      "secondImageUrl":"https://img.freepik.com/free-photo/clean-white-coffee-mug-white-background_125540-3365.jpg",
+      "thirdImageUrl":"https://img.freepik.com/fotos-premium/taza-blanca-sobre-mesa-interior-minimalista_137678-476.jpg?size=626&ext=jpg&ga=GA1.1.1488620777.1708387200&semt=ais",
+      "fourthImageUrl":"https://st5.depositphotos.com/33334812/64117/i/450/depositphotos_641178524-stock-photo-white-mug-mock-empty-space.jpg",
+      "size":"950x81x81 мм",
+      "material":"Керамика",
+      "weight":"361 гр",
+      "id": 7
     }
+    
   ] 
 }
