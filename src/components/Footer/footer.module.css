@@ -1,0 +1,297 @@
+.quest h1 {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    max-width: 480px;
+}
+
+.quest {
+    margin-left: 200px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quest h1 span {
+    text-decoration: underline;
+    text-decoration-color:  rgb(255, 166, 48);
+}
+
+.quest ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 250px;
+}
+
+.quest ul li {
+    width: 448px;
+    height: 62px;
+    border-top: 1px solid rgb(182, 182, 182);
+    margin-right: 60px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+    background-image: url(./arrowBottom.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 12px 8px;
+}
+
+.moreQuest {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    /* Interface with white back */
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    /* white */
+    background: rgb(255, 255, 255);
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 140px;
+}
+
+.moreQuest svg {
+    margin-left: 7px;
+}
+
+.helper {
+    width: 960px;
+    height: 248px;
+    border-radius: 28px;
+    /* green 01 */
+    background: rgb(16, 187, 135);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./grrenBg.png);
+    background-repeat: no-repeat;
+    background-size: 300px 190px;
+    background-position: right;
+}
+
+.bigInp {
+    padding: 12px 15px 12px 15px;border-radius: 10px;
+    /* Interface with white back */
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    /* white */
+    background: rgb(255, 255, 255);
+    width: 324px;
+    height: 40px;
+}
+
+.miniInp {
+    border-radius: 10px;
+    /* Interface with white back */
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    /* white */
+    background: rgb(255, 255, 255);
+    width: 256px;
+    height: 40px;
+     padding: 12px 15px 12px 15px;
+}
+
+.helper {
+    display: flex;
+    padding: 50px 100px;
+    margin-bottom: 130px;
+}
+
+.helperText h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 42px;
+}
+
+.helperText h2 span {
+    text-decoration: underline;
+    text-decoration-color: rgb(72, 123, 108);
+}
+
+.helperText p {
+    color: rgb(72, 123, 108);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 352px;
+    height: 60px;
+}
+
+.helperForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.helperForm label{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(72, 123, 108);
+    margin-left: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrowRight {
+    border-radius: 10px;
+    /* Interface with white back */
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    /* white */
+    background: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+}
+
+.arrowRight {
+    margin-left: 20px;
+}
+
+.megaFooter {
+    background: rgb(242, 242, 242);
+}
+
+.megaFooterInner {
+    max-width: 1390px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 50px;
+    gap: 80px;
+}
+
+.firstList {
+    max-height: 190px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    gap: 100px;
+}
+
+.firstList div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.secondTitle {
+    margin-bottom: 10px;
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.secondList {
+    max-height: 190px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    gap: 70px;
+}
+
+
+.innerOne {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.innerOne div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+.chtoTutProsihodit {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footerDno {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+}
+
+hr {
+    background: rgb(121, 121, 121);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footerDno a {
+    border-radius: 10px;
+/* Interface with white back */
+box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+/* white */
+background: rgb(255, 255, 255);
+padding: 11px 15px;
+margin-left: 10px;
+}
+
+.dnoZero {
+    margin-right: 200px;
+}
+
+.dnoOne {
+    margin-right: 40px;
+}
+
+.dnoOne h3{
+    color: rgb(179, 179, 179);
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+margin-bottom: 14px;
+}
+
+.dnoOne span {
+    font-weight: 400;
+line-height: 20px;
+}
+
+.dnoTwo {
+    margin-right: 50px;
+}
+
+.dnoTwo h4{
+    color: rgb(72, 123, 108);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 14px;
+}
+
+.dnoTwo h4 svg {
+    margin-right: 10px;
+}
+
+.dnoTwo:last-child span {
+    color: rgb(179, 179, 179);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+}

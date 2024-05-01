@@ -59,8 +59,7 @@ const CatalogTop = () => {
                 </div>
             </div>
                     
-        <Category/>
-        <CatalogList/>
+
         </div>
     );
 };

@@ -12,6 +12,12 @@ export interface Product {
     color:string;
     miniInfo?:string
     desc: string;
+    size:string,
+    weight:string,
+    material:string
+    secondImageUrl:string,
+    thirdImageUrl:string,
+    fourthImageUrl:string,
   }
   
   export const getProductsCatalog = createAsyncThunk(
