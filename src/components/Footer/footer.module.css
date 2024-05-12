@@ -235,7 +235,7 @@
     display: flex;
 }
 
-hr {
+.hr {
     background: rgb(121, 121, 121);
     margin-top: 50px;
     margin-bottom: 20px;

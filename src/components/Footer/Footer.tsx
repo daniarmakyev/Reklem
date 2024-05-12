@@ -94,7 +94,7 @@ const Footer = () => {
 
 
                 </div>
-                <hr />
+                <hr className={styles.hr} />
                 <div className={styles.footerDno}>
 
                         <div className={styles.dnoZero}>
