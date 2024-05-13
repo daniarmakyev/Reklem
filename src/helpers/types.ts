@@ -1,7 +1,3 @@
-import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
-
-
 export interface UserType {
     name: string;
     email: string;
@@ -9,4 +5,8 @@ export interface UserType {
     id?: number;
   }
 
-
+  export type StateType = {
+    currentUser?: null;
+     users: UserType[];
+     loading: boolean;
+   };

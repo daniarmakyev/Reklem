@@ -1,11 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { UserType } from "../actions/mainUsers.action";
+import { StateType, UserType } from "../../helpers/types";
 
-export type StateType = {
- currentUser?: null;
-  users: UserType[];
-  loading: boolean;
-};
+
 
 const INIT_STATE: StateType = {
   users: [],
@@ -21,3 +17,4 @@ export const usersSlice = createSlice({
   //   builder
   // },
 });
+ 
