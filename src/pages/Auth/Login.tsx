@@ -1,7 +1,6 @@
 import React, { ChangeEvent, FC, FormEvent, useEffect, useState } from 'react'
 import { useAppDispatch, useAppSelector } from '../../store/store';
 import { Link, useNavigate } from 'react-router-dom';
-import { getCurrentUser, getUsers } from '../../store/actions/mainUsers.action';
 import styles from "./auth.module.css"
 
 

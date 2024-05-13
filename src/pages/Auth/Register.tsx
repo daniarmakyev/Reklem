@@ -1,7 +1,6 @@
 import { ChangeEvent, FC, FormEvent, useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../store/store";
 import { Link, useNavigate } from "react-router-dom";
-import { UserType, getUsers, registerUser } from "../../store/actions/mainUsers.action";
 import styles from "./auth.module.css"
 
 const Register: FC = () => {
