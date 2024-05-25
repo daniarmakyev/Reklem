@@ -1,0 +1,17 @@
+.preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.previewText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    max-width: 352px;
+    margin-right: 70px;
+}
+
+.previewImg {
+    margin-top: 30px;
+}
