@@ -5,6 +5,7 @@ import MainPage from "../pages/MainPage/MainPage";
 import Catalog from "../pages/Catalog/Catalog";
 import Register from "../pages/Auth/Register";
 import Login from "../pages/Auth/Login";
+import NotFoundPage from "../pages/NotFountPage/NotFoundPage";
 
 
 export const router = createBrowserRouter([
@@ -16,6 +17,7 @@ export const router = createBrowserRouter([
       { path: "/", element: <MainPage /> },
       { path: "/catalog", element: <Catalog /> },
       { path: "/register", element: <Register /> },
+      { path: "*", element: <NotFoundPage /> },
       { path: "/login", element: <Login /> },
     ],
   },

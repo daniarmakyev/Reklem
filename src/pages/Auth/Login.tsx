@@ -2,6 +2,7 @@ import React, { ChangeEvent, FC, FormEvent, useEffect, useState } from 'react'
 import { useAppDispatch, useAppSelector } from '../../store/store';
 import { Link, useNavigate } from 'react-router-dom';
 import styles from "./auth.module.css"
+import TopText from '../../components/TopText/TopText';
 
 
 const Login: FC = () => {
@@ -9,12 +10,7 @@ const Login: FC = () => {
   
     return (
         <>
-        <div className={styles.authTop}>
-                <div className={styles.authTopInner}>
-                <Link to={'/'}>Главная</Link>
-            <h2  className={styles.title}>Логин</h2>
-                </div>
-        </div>
+    <TopText title={'Логин'}/>
     <div className={styles.container}>
       <form className={styles.forma}>
         <button className={styles.authBtn}>Логин</button>

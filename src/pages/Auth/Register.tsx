@@ -2,17 +2,13 @@ import { ChangeEvent, FC, FormEvent, useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../store/store";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./auth.module.css"
+import TopText from "../../components/TopText/TopText";
 
 const Register: FC = () => {
   
     return (
         <>
-        <div className={styles.authTop}>
-                <div className={styles.authTopInner}>
-                <Link to={'/'}>Главная</Link>
-            <h2  className={styles.title}>Регистрация</h2>
-                </div>
-        </div>
+        <TopText title={'Регистрация'}/>
     <div className={styles.container}>
       <form className={styles.forma}>
         <button className={styles.authBtn}>Регистрация</button>

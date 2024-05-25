@@ -13,7 +13,7 @@ function GoToDire() {
           <p className={styles.textCenter}>
             Reklem - только оптовая работа высокого качества с индивидуальным подходом. Работаем с 2008 года.
           </p>
-          <GreenButton><Link to={'/catalog'}>Перейти в каталог</Link></GreenButton>
+          <Link to={'/catalog'}><GreenButton>Перейти в каталог</GreenButton></Link>
         </div>
 
         <div className={styles.backgroundInner}>

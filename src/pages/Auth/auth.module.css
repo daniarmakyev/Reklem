@@ -6,31 +6,16 @@
     margin-bottom: 100px;
 }
 
-.authTop .authTopInner a {
-    font-weight: 500;
-}
-
-.authTopInner {
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.authTop {
-    padding-top: 30px;
-    background-color: #f2f2f2;
-    padding-bottom: 30px;
-}
 
 .authBtn {
     border-radius: 10px;
-/* Accent unit with green back */
-box-shadow: 0px 9px 25px -4px rgba(72, 123, 108, 0.5);
-/* green 01 */
-background: rgb(16, 187, 135);
-padding: 12px 30px 12px 30px;
-max-width: 160px;
-color: #fff;
+    box-shadow: 0px 9px 25px -4px rgba(72, 123, 108, 0.5);
+    background: rgb(16, 187, 135);
+    padding: 12px 30px 12px 30px;
+    max-width: 160px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .forma {
@@ -42,21 +27,12 @@ color: #fff;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    padding-left: 100px;
     margin-bottom: 300px;
 }
 
 .forma a{
-    margin-left: 30px;
-}
-
-.title {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    text-decoration: underline;
-    text-decoration-color: rgb(255, 166, 48);
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .forma div input {
