@@ -77,3 +77,13 @@
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
     background: rgb(255, 255, 255);
   }
+
+
+.production {
+  margin-top: 70px;
+}
+
+  .productionDesc {
+    max-width: 700px;
+    margin-top: 34px;
+  }

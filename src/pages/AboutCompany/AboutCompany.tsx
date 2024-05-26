@@ -134,6 +134,8 @@ const AboutCompany: React.FC = () => {
 
         <section className={`${styles.production}`}>
           <OrangeUnderline>Производство</OrangeUnderline>
+          <p className={styles.productionDesc}>Наше предприятие специализируется на изготовлении кастомных принтов и уникальных мелочей. Мы используем передовые технологии и материалы высокого качества для создания продуктов, отвечающих самым высоким стандартам. Наша команда профессионалов готова воплотить любую вашу идею в реальность, обеспечивая индивидуальный подход к каждому заказу. Благодаря нашему опыту и творческому подходу мы гарантируем высокое качество и уникальность каждого изделия.</p>
+          <iframe width="100%" style={{borderRadius:'28px', marginTop:'44px'}} height="480" src="https://www.youtube.com/embed/iDQre9mu2iw" title="Флешки оптом, собственное производство в Reklem" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </section>
 
       </div>
