@@ -1,6 +1,6 @@
 import React from "react";
-import { Route, Routes, createBrowserRouter } from "react-router-dom";
-import MainLayout from "../MainStyles/MainLaout";
+import { createBrowserRouter } from "react-router-dom";
+import MainLayout from "./MainLaout";
 import MainPage from "../pages/MainPage/MainPage";
 import Catalog from "../pages/Catalog/Catalog";
 import Register from "../pages/Auth/Register";
