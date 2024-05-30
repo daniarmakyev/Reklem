@@ -87,3 +87,35 @@
     max-width: 700px;
     margin-top: 34px;
   }
+
+  .vacancy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  .vacancyInner {
+    display: flex;
+    gap: 32px;
+
+  }
+
+  .vacancyInner label  {
+    padding-right: 10px;
+  }
+
+  .vacancyInner label span {
+    font-weight: 600;
+  }
+
+  .paddingLeft {
+    padding-left: 10px;
+  }
+
+  .miniHistoryCompany {
+    max-width: 700px;
+    margin-top: 40px;
+  }

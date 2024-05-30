@@ -84,7 +84,7 @@ const AboutCompany: React.FC = () => {
                         backgroundPosition: "center",
                         width: "100px",
                         height: "80px",
-                        paddingBottom:'0'
+                        paddingBottom: "0",
                       }}
                     />
                   </div>
@@ -134,10 +134,58 @@ const AboutCompany: React.FC = () => {
 
         <section className={`${styles.production}`}>
           <OrangeUnderline>Производство</OrangeUnderline>
-          <p className={styles.productionDesc}>Наше предприятие специализируется на изготовлении кастомных принтов и уникальных мелочей. Мы используем передовые технологии и материалы высокого качества для создания продуктов, отвечающих самым высоким стандартам. Наша команда профессионалов готова воплотить любую вашу идею в реальность, обеспечивая индивидуальный подход к каждому заказу. Благодаря нашему опыту и творческому подходу мы гарантируем высокое качество и уникальность каждого изделия.</p>
-          <iframe width="100%" style={{borderRadius:'28px', marginTop:'44px'}} height="480" src="https://www.youtube.com/embed/iDQre9mu2iw" title="Флешки оптом, собственное производство в Reklem" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <p className={styles.productionDesc}>
+            Наше предприятие специализируется на изготовлении кастомных принтов
+            и уникальных мелочей. Мы используем передовые технологии и материалы
+            высокого качества для создания продуктов, отвечающих самым высоким
+            стандартам. Наша команда профессионалов готова воплотить любую вашу
+            идею в реальность, обеспечивая индивидуальный подход к каждому
+            заказу. Благодаря нашему опыту и творческому подходу мы гарантируем
+            высокое качество и уникальность каждого изделия.
+          </p>
+          <iframe
+            width="100%"
+            style={{ borderRadius: "28px", marginTop: "44px" }}
+            height="480"
+            src="https://www.youtube.com/embed/iDQre9mu2iw"
+            title="Флешки оптом, собственное производство в Reklem"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </section>
 
+        <div className="">
+          <section className={styles.vacancy}>
+            <OrangeUnderline>Вакансии</OrangeUnderline>
+            <section className={styles.vacancyInner}>
+              <label>
+                <input type="checkbox" />
+                <span className={styles.paddingLeft}>Москва</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span className={styles.paddingLeft}>Улан-Удэ</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span className={styles.paddingLeft}> Удаленно</span>
+              </label>
+            </section>
+          </section>
+
+          <section className={styles.historyCompany}>
+            <OrangeUnderline>История компании</OrangeUnderline>
+            <p className={styles.miniHistoryCompany}>
+              Анна, художница, и Михаил, инженер, основали «Print Your Dream»
+              для создания уникальных принтов. Начав с небольшой мастерской, они
+              быстро стали популярны. Запустив онлайн-платформу, компания
+              позволила клиентам создавать свои дизайны. Сегодня «Print Your
+              Dream» поддерживает художников и использует экологичные материалы.
+            </p>
+          </section>
+        </div>
       </div>
     </div>
   );
