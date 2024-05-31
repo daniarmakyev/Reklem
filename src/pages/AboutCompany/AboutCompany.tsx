@@ -18,6 +18,7 @@ import omk from "../../components/images/companys/omk.png";
 import fosagro from "../../components/images/companys/fosagro.png";
 import evraz from "../../components/images/companys/evraz.png";
 import OrangeUnderline from "../../components/OrangeUnderline/OrangeUnderline";
+import QuestionsFooter from "../../components/QuestionsFooter/QuestionsFooter";
 
 const AboutCompany: React.FC = () => {
   const companies = [
@@ -185,8 +186,78 @@ const AboutCompany: React.FC = () => {
               Dream» поддерживает художников и использует экологичные материалы.
             </p>
           </section>
+
+          <div className={styles.historyInfo}>
+            <section>
+              <p className={styles.historyMini}>
+                Коммуникабельность‚ аккуратность‚ внимательность, позитивный
+                настрой‚ легкая обучаемость‚ самозадачность,
+                стрессоустойчивость.
+              </p>
+              <span>2002</span>
+              <img
+                src={require("../../components/images/aboutCompanyHistory/historyOne.png")}
+                alt=""
+              />
+            </section>
+            <section>
+              <p className={styles.historyMax}>
+                Независимые государства рассмотрены исключительно в разрезе
+                маркетинговых и финансовых предпосылок. Внезапно, интерактивные
+                прототипы и по сей день остаются уделом либералов, которые
+                жаждут быть заблокированы в рамках своих собственных
+                рациональных ограничений.
+              </p>
+              <span>2010</span>
+              <img
+                src={require("../../components/images/aboutCompanyHistory/historyTwo.png")}
+                alt=""
+              />
+            </section>
+            <section className={styles.historyCenter}>
+              <p className={styles.historyMax}>
+                Значимость этих проблем настолько очевидна, что базовый вектор
+                развития требует определения и уточнения новых принципов
+                формирования материально-технической и кадровой базы. Господа,
+                понимание сути ресурсосберегающих технологий говорит о
+                возможностях приоритизации разума над эмоциями.
+              </p>
+              <span>2017</span>
+              <img
+                src={require("../../components/images/aboutCompanyHistory/historyThree.png")}
+                alt=""
+              />
+            </section>
+            <section>
+              <p className={styles.historyMax}>
+                Идейные соображения высшего порядка, а также понимание сути
+                ресурсосберегающих технологий предопределяет высокую
+                востребованность направлений прогрессивного развития.
+                Повседневная практика показывает, что разбавленное изрядной
+                долей эмпатии, рациональное мышление в значительной степени
+                обусловливает.
+              </p>
+              <span>2020</span>
+              <img
+                src={require("../../components/images/aboutCompanyHistory/historyFourth.png")}
+                alt=""
+              />
+            </section>
+            <section>
+              <p className={styles.historyMini}>
+                Как уже неоднократно упомянуто, представители современных
+                социальных резервов ассоциативно распределены по отраслям.
+              </p>
+              <span>2021</span>
+              <img
+                src={require("../../components/images/aboutCompanyHistory/historyFive.png")}
+                alt=""
+              />
+            </section>
+          </div>
         </div>
       </div>
+      <QuestionsFooter />
     </div>
   );
 };

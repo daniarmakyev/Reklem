@@ -119,3 +119,49 @@
     max-width: 700px;
     margin-top: 40px;
   }
+
+  .historyInfo {
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+  }
+
+  .historyInfo section {
+    display: flex;
+  }
+
+  .historyInfo section span {
+    font-size: 24px;
+    font-weight: 500;
+    background: rgb(242, 242, 242);
+    width: 96px;
+    height: 96px;
+    padding: 32px 18px;
+    border-radius: 21px;
+    margin-left: 58px;
+  }
+
+  .historyInfo section span{
+    border-right: 4px solid rgb(16, 187, 135);
+  border-radius: 100px;
+  }
+
+  .historyInfo section img {
+    margin-left: 100px;
+  }
+
+  .historyMini {
+    max-width: 192px;
+    color: #b3b3b3;
+  }
+
+  .historyMax {
+    max-width: 448px;
+    color: #b3b3b3;
+  }
+
+  .historyCenter{
+    align-self: center;
+  }
