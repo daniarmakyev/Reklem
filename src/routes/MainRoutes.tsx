@@ -8,10 +8,9 @@ import Login from "../pages/Auth/Login";
 import NotFoundPage from "../pages/NotFountPage/NotFoundPage";
 import AboutCompany from "../pages/AboutCompany/AboutCompany";
 
-
 export const router = createBrowserRouter([
   {
-     id: "root",
+    id: "root",
     // errorElement: <Error />,
     element: <MainLayout />,
     children: [
